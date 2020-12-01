@@ -8,7 +8,7 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class expenseReport {
-    List<String> values = new ArrayList<String>();
+    List<String> values = new ArrayList<>();
 
     public Integer[] sum2020(String a) throws FileNotFoundException {
         Scanner scanner = new Scanner(new File(Objects.requireNonNull(getClass().getClassLoader().getResource(a)).getFile()));
