@@ -1,0 +1,2 @@
+Hi! My name is Liam Mackay, and if you're reading this, why? You just randomly download git repositories for fun? You do you bro.
+I'm a 19 year old CS Major at Temple University, but I have a problem- I don't have any programming classes yet! So, I'm doing advent of code to keep myself on my toes. Enjoy!
