@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe3a9dbf-7357-416d-97a1-c0500628d9e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent-of-code-2020.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/advent-of-code-2020/Day1.1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/advent-of-code-2020/Day1/expenseReport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/advent-of-code-2020/Day1/expenseReportTwo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/advent-of-code-2020/META-INF/advent-of-code-2020.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/advent-of-code-2020/main/resources/Day1.1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/advent-of-code-2020/mainUI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/advent-of-code-2020/resources/Day1.1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Day1/expenseReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Day1/expenseReportTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/mainUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Day1.1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,12 +98,35 @@
       <option name="presentableId" value="Default" />
       <updated>1606806619376</updated>
       <workItem from="1606806622255" duration="2192000" />
-      <workItem from="1606808896726" duration="1970000" />
+      <workItem from="1606808896726" duration="2429000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit!! Very exciting!">
+      <created>1606810959227</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606810959227</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit!! Very exciting!" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit!! Very exciting!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="357" key="#Project_Structure" timestamp="1606807070345">
@@ -137,10 +145,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1076" y="558" width="408" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606809204932" />
-    <state x="866" y="291" key="CommitChangelistDialog2" timestamp="1606810935797">
+    <state x="866" y="291" key="CommitChangelistDialog2" timestamp="1606810957630">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="866" y="291" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606810935797" />
+    <state x="866" y="291" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606810957630" />
     <state x="1060" y="453" key="FileChooserDialogImpl" timestamp="1606808912779">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
