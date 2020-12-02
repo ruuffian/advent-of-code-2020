@@ -42,6 +42,8 @@ public class mainUI {
                 } else if (choice2.toUpperCase().equals("2") || choice2.toUpperCase().equals("TWO")) {
                     correctValidPassword password = new correctValidPassword();
                     System.out.println("There are " + password.numberValid("Day2.1.txt") + " valid passwords.");
+                } else {
+                    System.out.println("Invalid entry!");
                 }
                 break;
             case "EXIT", "STOP", "TERMINATE":

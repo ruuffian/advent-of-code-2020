@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe3a9dbf-7357-416d-97a1-c0500628d9e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day2/correctValidPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day2/validPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Day2.1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advent-of-code-2020/mainUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advent-of-code-2020/mainUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mainUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +105,7 @@
       <workItem from="1606806622255" duration="2192000" />
       <workItem from="1606808896726" duration="3003000" />
       <workItem from="1606859727908" duration="1509000" />
-      <workItem from="1606896136399" duration="4288000" />
+      <workItem from="1606896136399" duration="5475000" />
     </task>
     <task id="LOCAL-00001" summary="First commit!! Very exciting!">
       <created>1606810959227</created>
@@ -146,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606859943379</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="day2 complete ;)">
+      <created>1606900454130</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606900454130</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,17 +174,18 @@
     <MESSAGE value="added gitignore" />
     <MESSAGE value="fixed structure" />
     <MESSAGE value="fixed project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed project structure" />
+    <MESSAGE value="day2 complete ;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="day2 complete ;)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="862" y="357" key="#Deployment" timestamp="1606811364323">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="862" y="357" key="#Deployment/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606811364323" />
-    <state x="872" y="357" key="#Project_Structure" timestamp="1606807070345">
+    <state x="872" y="357" key="#Project_Structure" timestamp="1606901530554">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="357" key="#Project_Structure/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606807070345" />
+    <state x="872" y="357" key="#Project_Structure/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606901530554" />
     <state x="1029" y="535" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1606810107945">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -194,10 +198,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1076" y="558" width="408" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606809204932" />
-    <state x="423" y="291" width="1251" height="1008" key="CommitChangelistDialog2" timestamp="1606859942490">
+    <state x="423" y="291" width="1251" height="1008" key="CommitChangelistDialog2" timestamp="1606900453315">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="423" y="291" width="1251" height="1008" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606859942490" />
+    <state x="423" y="291" width="1251" height="1008" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606900453315" />
     <state x="1060" y="453" key="FileChooserDialogImpl" timestamp="1606808912779">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -238,10 +242,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="505" y="219" width="1245" height="980" key="SettingsEditor/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606859758256" />
-    <state x="872" y="420" key="Vcs.Push.Dialog.v2" timestamp="1606859947601">
+    <state x="872" y="420" key="Vcs.Push.Dialog.v2" timestamp="1606900456658">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="420" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606859947601" />
+    <state x="872" y="420" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606900456658" />
     <state x="976" y="522" key="com.intellij.ide.util.TipDialog" timestamp="1606896137839">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
