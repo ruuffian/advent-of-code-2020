@@ -1,5 +1,7 @@
 import Day1.expenseReport;
 import Day1.expenseReportTwo;
+import Day2.correctValidPassword;
+import Day2.validPassword;
 
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -29,6 +31,17 @@ public class mainUI {
                         System.out.println(result[0] * result[1] * result[2]);
                 } else {
                     System.out.println("Invalid entry!");
+                }
+                break;
+            case "DAY2", "DAY 2", "DAY TWO", "2", "TWO":
+                System.out.println("part 1 or part 2?");
+                String choice2 = keyboard.next();
+                if (choice2.toUpperCase().equals("1") || choice2.toUpperCase().equals("ONE")) {
+                    validPassword password = new validPassword();
+                    System.out.println("There are " + password.isValidPassword("Day2.1.txt") + " valid passwords.");
+                } else if (choice2.toUpperCase().equals("2") || choice2.toUpperCase().equals("TWO")) {
+                    correctValidPassword password = new correctValidPassword();
+                    System.out.println("There are " + password.numberValid("Day2.1.txt") + " valid passwords.");
                 }
                 break;
             case "EXIT", "STOP", "TERMINATE":
