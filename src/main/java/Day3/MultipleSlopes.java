@@ -28,7 +28,7 @@ public class MultipleSlopes {
         int[] slopes = new int[]{11, 31, 51, 71, 12}; //initializes array of traversal instructions, 31 = 3 right 1 down
         for (int value : slopes) {
             long trees = 0;
-            int right = Integer.parseInt("" + ("" + value).charAt(0)), down = Integer.parseInt("" + ("" + value).charAt(1)); //uses super scuffed typecasting to set the traversal instructions
+            int right = value / 10, down = value % 10; //typecasting was fixed!!!
             int row = 0, col = 0;
             while (row < slope.length) {
                 if (("" + map[row][col].charAt(0)).equals("#"))
