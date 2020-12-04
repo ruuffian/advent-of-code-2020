@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe3a9dbf-7357-416d-97a1-c0500628d9e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day4/Passport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day4/PassportValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/PassportValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Day4InvalidTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Day4ValidTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day3/MultipleSlopes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day3/MultipleSlopes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day3/TobogganSlope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day3/TobogganSlope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advent-of-code-2020/mainUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advent-of-code-2020/mainUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mainUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +49,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MathConceptsInComputingFinalProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,7 +71,7 @@
       <recent name="C:\Users\toxic\IdeaProjects\advent-of-code-2020\src\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PassportValidatorTest">
     <configuration name="mainUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mainUI" />
       <module name="advent-of-code-2020" />
@@ -79,8 +85,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PassportValidatorTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="advent-of-code-2020" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PassportValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassportValidatorTest.invalidStrictTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-2020" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PassportValidatorTest" />
+      <option name="METHOD_NAME" value="invalidStrictTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassportValidatorTest.validStrictTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-2020" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PassportValidatorTest" />
+      <option name="METHOD_NAME" value="validStrictTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PassportValidatorTest.invalidStrictTest" />
+        <item itemvalue="JUnit.PassportValidatorTest.validStrictTest" />
         <item itemvalue="Application.mainUI" />
       </list>
     </recent_temporary>
@@ -114,7 +151,8 @@
       <workItem from="1606953098370" duration="10000" />
       <workItem from="1606981759778" duration="790000" />
       <workItem from="1606982576122" duration="3975000" />
-      <workItem from="1607017407887" duration="1542000" />
+      <workItem from="1607017407887" duration="2225000" />
+      <workItem from="1607060284478" duration="11475000" />
     </task>
     <task id="LOCAL-00001" summary="First commit!! Very exciting!">
       <created>1606810959227</created>
@@ -179,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606986491269</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="changed day3 typecasting because it was ugly af">
+      <created>1607019232279</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607019232279</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +252,8 @@
     <MESSAGE value="day2 complete ;)" />
     <MESSAGE value="formatting" />
     <MESSAGE value="day 3 complete!!!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 3 complete!!!!!" />
+    <MESSAGE value="changed day3 typecasting because it was ugly af" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed day3 typecasting because it was ugly af" />
   </component>
   <component name="WindowStateProjectService">
     <state x="862" y="357" key="#Deployment" timestamp="1606811364323">
@@ -218,10 +264,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="357" key="#Project_Structure/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606901530554" />
+    <state x="100" y="100" width="2360" height="1200" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1607070253658">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="100" y="100" width="2360" height="1200" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607070253658" />
     <state x="1029" y="535" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1606810107945">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1029" y="535" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606810107945" />
+    <state x="1085" y="408" key="#com.intellij.ide.util.MemberChooser" timestamp="1607060702200">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1085" y="408" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607060702200" />
     <state x="949" y="624" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606809200090">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -230,54 +284,58 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1076" y="558" width="408" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606809204932" />
-    <state x="423" y="291" width="1251" height="1008" key="CommitChangelistDialog2" timestamp="1606986490544">
+    <state x="423" y="291" width="1251" height="1008" key="CommitChangelistDialog2" timestamp="1607071780167">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="423" y="291" width="1251" height="1008" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606986490544" />
+    <state x="423" y="291" width="1251" height="1008" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607071780167" />
+    <state width="423" height="466" key="DebuggerActiveHint" timestamp="1607068788614">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="423" height="466" key="DebuggerActiveHint/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607068788614" />
     <state x="1060" y="453" key="FileChooserDialogImpl" timestamp="1607017539068">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="453" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607017539068" />
-    <state width="2516" height="491" key="GridCell.Tab.0.bottom" timestamp="1606986554394">
+    <state width="2516" height="400" key="GridCell.Tab.0.bottom" timestamp="1607071771342">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2516" height="491" key="GridCell.Tab.0.bottom/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606986554394" />
-    <state width="2516" height="491" key="GridCell.Tab.0.center" timestamp="1606986554393">
+    <state width="2516" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607071771342" />
+    <state width="2516" height="400" key="GridCell.Tab.0.center" timestamp="1607071771342">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2516" height="491" key="GridCell.Tab.0.center/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606986554393" />
-    <state width="2516" height="491" key="GridCell.Tab.0.left" timestamp="1606986554393">
+    <state width="2516" height="400" key="GridCell.Tab.0.center/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607071771342" />
+    <state width="2516" height="400" key="GridCell.Tab.0.left" timestamp="1607071771342">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2516" height="491" key="GridCell.Tab.0.left/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606986554393" />
-    <state width="2516" height="491" key="GridCell.Tab.0.right" timestamp="1606986554394">
+    <state width="2516" height="400" key="GridCell.Tab.0.left/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607071771342" />
+    <state width="2516" height="400" key="GridCell.Tab.0.right" timestamp="1607071771342">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2516" height="491" key="GridCell.Tab.0.right/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606986554393" />
-    <state width="2516" height="491" key="GridCell.Tab.1.bottom" timestamp="1606986554394">
+    <state width="2516" height="400" key="GridCell.Tab.0.right/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607071771342" />
+    <state width="2516" height="491" key="GridCell.Tab.1.bottom" timestamp="1607070920465">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2516" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606986554394" />
-    <state width="2516" height="491" key="GridCell.Tab.1.center" timestamp="1606986554394">
+    <state width="2516" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607070920465" />
+    <state width="2516" height="491" key="GridCell.Tab.1.center" timestamp="1607070920465">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2516" height="491" key="GridCell.Tab.1.center/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606986554394" />
-    <state width="2516" height="491" key="GridCell.Tab.1.left" timestamp="1606986554394">
+    <state width="2516" height="491" key="GridCell.Tab.1.center/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607070920465" />
+    <state width="2516" height="491" key="GridCell.Tab.1.left" timestamp="1607070920465">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2516" height="491" key="GridCell.Tab.1.left/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606986554394" />
-    <state width="2516" height="491" key="GridCell.Tab.1.right" timestamp="1606986554394">
+    <state width="2516" height="491" key="GridCell.Tab.1.left/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607070920465" />
+    <state width="2516" height="491" key="GridCell.Tab.1.right" timestamp="1607070920465">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2516" height="491" key="GridCell.Tab.1.right/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606986554394" />
+    <state width="2516" height="491" key="GridCell.Tab.1.right/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607070920465" />
     <state x="505" y="219" width="1245" height="980" key="SettingsEditor" timestamp="1606859758256">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="505" y="219" width="1245" height="980" key="SettingsEditor/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606859758256" />
-    <state x="872" y="420" key="Vcs.Push.Dialog.v2" timestamp="1606986495119">
+    <state x="872" y="420" key="Vcs.Push.Dialog.v2" timestamp="1607019239999">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="420" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606986495119" />
+    <state x="872" y="420" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607019239999" />
     <state x="976" y="522" key="com.intellij.ide.util.TipDialog" timestamp="1607017525572">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

@@ -4,6 +4,7 @@ import Day2.correctValidPassword;
 import Day2.validPassword;
 import Day3.MultipleSlopes;
 import Day3.TobogganSlope;
+import Day4.PassportValidator;
 
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -62,6 +63,19 @@ public class mainUI {
                 if (choice3.toUpperCase().equals("2") || choice3.toUpperCase().equals("TWO")) {
                     MultipleSlopes slope = new MultipleSlopes();
                     System.out.println(slope.multipleTrees("Day3.txt"));
+                }
+                break;
+
+            case "DAY4", "DAY 4", "DAY FOUR", "4", "FOUR":
+                System.out.println("part 1 or part 2?");
+                String choice4 = keyboard.next();
+                if (choice4.toUpperCase().equals("1") || choice4.toUpperCase().equals("ONE")) {
+                    PassportValidator valid = new PassportValidator();
+                    System.out.println(valid.totalValid("Day4.txt"));
+                }
+                if (choice4.toUpperCase().equals("2") || choice4.toUpperCase().equals("TWO")) {
+                    PassportValidator pass = new PassportValidator();
+                    System.out.println(pass.totalValidStrict("Day4.txt"));
                 }
                 break;
 
