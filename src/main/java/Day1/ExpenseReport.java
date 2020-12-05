@@ -15,6 +15,7 @@ public class ExpenseReport {
         while (scanner.hasNext()) {
             values.add(scanner.next());
         }
+
         for (int i = 0; i < values.size(); i++) {
             for (int j = 1; j < values.size(); j++) {
                 if (i != j) {
@@ -23,6 +24,7 @@ public class ExpenseReport {
                 }
             }
         }
+
         return new Integer[]{0, 0};
     }
 }

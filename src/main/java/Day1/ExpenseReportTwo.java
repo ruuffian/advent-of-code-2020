@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Scanner;
 
-public class expenseReportTwo {
+public class ExpenseReportTwo {
     List<String> values = new ArrayList<String>();
 
     public Integer[] sumThree(String a) throws FileNotFoundException {
