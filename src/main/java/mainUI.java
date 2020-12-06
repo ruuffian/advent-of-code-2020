@@ -6,6 +6,7 @@ import Day3.MultipleSlopes;
 import Day3.TobogganSlope;
 import Day4.PassportValidator;
 import Day5.BoardingPassCounter;
+import Day6.Survey;
 
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -94,6 +95,18 @@ public class mainUI {
                 }
                 break;
 
+            case "DAY6", "DAY 6", "DAY SIX", "6", "SIX":
+                System.out.println("part 1 or part 2?");
+                String choice6 = keyboard.next();
+                if (choice6.toUpperCase().equals("1") || choice6.toUpperCase().equals("ONE")) {
+                    Survey questions = new Survey("Day6.txt");
+                    System.out.println(questions.uniqueQuestions());
+                }
+//                if (choice5.toUpperCase().equals("2") || choice5.toUpperCase().equals("TWO")) {
+//                    BoardingPassCounter board = new BoardingPassCounter("Day5.txt");
+//                    System.out.println(board.missingSeatID());
+//                }
+                break;
             case "EXIT", "STOP", "TERMINATE":
                 break;
         }

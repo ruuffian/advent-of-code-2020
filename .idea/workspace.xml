@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe3a9dbf-7357-416d-97a1-c0500628d9e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day5/BoardingPass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day5/BoardingPassCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Day5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/BoardingPassConstructorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day6/Survey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day6.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advent-of-code-2020/Day1/expenseReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advent-of-code-2020/Day1/expenseReport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advent-of-code-2020/Day1/expenseReportTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advent-of-code-2020/Day1/expenseReportTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advent-of-code-2020/mainUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advent-of-code-2020/mainUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day1/ExpenseReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day1/ExpenseReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day1/expenseReportTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day1/ExpenseReportTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day4/PassportValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day4/PassportValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mainUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +172,10 @@
       <workItem from="1607120934349" duration="825000" />
       <workItem from="1607139571229" duration="286000" />
       <workItem from="1607140029573" duration="243000" />
-      <workItem from="1607148126444" duration="5119000" />
+      <workItem from="1607148126444" duration="6150000" />
+      <workItem from="1607174681026" duration="89000" />
+      <workItem from="1607216636328" duration="20000" />
+      <workItem from="1607233280714" duration="8646000" />
     </task>
     <task id="LOCAL-00001" summary="First commit!! Very exciting!">
       <created>1606810959227</created>
@@ -257,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607072031419</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="day 5 done! constructors made this code look way cleaner than other days">
+      <created>1607156668871</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607156668871</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +291,8 @@
     <MESSAGE value="day 3 complete!!!!!" />
     <MESSAGE value="changed day3 typecasting because it was ugly af" />
     <MESSAGE value="day 4 done! im proud of this because it was cool and i felt clever" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 4 done! im proud of this because it was cool and i felt clever" />
+    <MESSAGE value="day 5 done! constructors made this code look way cleaner than other days" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 5 done! constructors made this code look way cleaner than other days" />
   </component>
   <component name="WindowStateProjectService">
     <state x="862" y="357" key="#Deployment" timestamp="1606811364323">
@@ -318,62 +323,62 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1076" y="558" width="408" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606809204932" />
-    <state x="423" y="291" width="1251" height="1008" key="CommitChangelistDialog2" timestamp="1607072030659">
+    <state x="423" y="291" width="1251" height="1008" key="CommitChangelistDialog2" timestamp="1607156667584">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="423" y="291" width="1251" height="1008" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607072030659" />
+    <state x="423" y="291" width="1251" height="1008" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607156667584" />
     <state width="423" height="466" key="DebuggerActiveHint" timestamp="1607068788614">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="423" height="466" key="DebuggerActiveHint/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607068788614" />
-    <state x="1060" y="453" key="FileChooserDialogImpl" timestamp="1607140270551">
+    <state x="1060" y="453" key="FileChooserDialogImpl" timestamp="1607216654457">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="453" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607140270551" />
-    <state width="2516" height="491" key="GridCell.Tab.0.bottom" timestamp="1607156281485">
+    <state x="1060" y="453" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607216654457" />
+    <state width="2516" height="491" key="GridCell.Tab.0.bottom" timestamp="1607250616386">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2516" height="491" key="GridCell.Tab.0.bottom/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607156281485" />
-    <state width="2516" height="491" key="GridCell.Tab.0.center" timestamp="1607156281485">
+    <state width="2516" height="491" key="GridCell.Tab.0.bottom/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607250616386" />
+    <state width="2516" height="491" key="GridCell.Tab.0.center" timestamp="1607250616385">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2516" height="491" key="GridCell.Tab.0.center/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607156281485" />
-    <state width="2516" height="491" key="GridCell.Tab.0.left" timestamp="1607156281485">
+    <state width="2516" height="491" key="GridCell.Tab.0.center/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607250616385" />
+    <state width="2516" height="491" key="GridCell.Tab.0.left" timestamp="1607250616385">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2516" height="491" key="GridCell.Tab.0.left/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607156281485" />
-    <state width="2516" height="491" key="GridCell.Tab.0.right" timestamp="1607156281485">
+    <state width="2516" height="491" key="GridCell.Tab.0.left/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607250616385" />
+    <state width="2516" height="491" key="GridCell.Tab.0.right" timestamp="1607250616386">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2516" height="491" key="GridCell.Tab.0.right/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607156281485" />
-    <state width="2516" height="491" key="GridCell.Tab.1.bottom" timestamp="1607156281485">
+    <state width="2516" height="491" key="GridCell.Tab.0.right/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607250616386" />
+    <state width="2516" height="491" key="GridCell.Tab.1.bottom" timestamp="1607250618967">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2516" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607156281485" />
-    <state width="2516" height="491" key="GridCell.Tab.1.center" timestamp="1607156281485">
+    <state width="2516" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607250618967" />
+    <state width="2516" height="491" key="GridCell.Tab.1.center" timestamp="1607250618967">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2516" height="491" key="GridCell.Tab.1.center/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607156281485" />
-    <state width="2516" height="491" key="GridCell.Tab.1.left" timestamp="1607156281485">
+    <state width="2516" height="491" key="GridCell.Tab.1.center/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607250618967" />
+    <state width="2516" height="491" key="GridCell.Tab.1.left" timestamp="1607250618967">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2516" height="491" key="GridCell.Tab.1.left/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607156281485" />
-    <state width="2516" height="491" key="GridCell.Tab.1.right" timestamp="1607156281485">
+    <state width="2516" height="491" key="GridCell.Tab.1.left/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607250618967" />
+    <state width="2516" height="491" key="GridCell.Tab.1.right" timestamp="1607250618967">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2516" height="491" key="GridCell.Tab.1.right/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607156281485" />
+    <state width="2516" height="491" key="GridCell.Tab.1.right/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607250618967" />
     <state x="505" y="219" width="1245" height="980" key="SettingsEditor" timestamp="1606859758256">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="505" y="219" width="1245" height="980" key="SettingsEditor/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1606859758256" />
-    <state x="872" y="420" key="Vcs.Push.Dialog.v2" timestamp="1607072034245">
+    <state x="872" y="420" key="Vcs.Push.Dialog.v2" timestamp="1607156765725">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="420" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607072034245" />
-    <state x="976" y="522" key="com.intellij.ide.util.TipDialog" timestamp="1607121396108">
+    <state x="872" y="420" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607156765725" />
+    <state x="976" y="522" key="com.intellij.ide.util.TipDialog" timestamp="1607216639238">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="976" y="522" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607121396108" />
+    <state x="976" y="522" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1607216639238" />
     <state x="985" y="592" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606985662959">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -390,6 +395,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Day2/correctValidPassword.java</url>
           <line>23</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Day6/Survey.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

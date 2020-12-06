@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 public class PassportValidator {
     private List<String> info = new ArrayList<>();
     static String[] baseStats = new String[]{"byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid", "cid"};
-    static String[] fourStats = new String[]{"byr", "iyr", "eyr"};
+    static String[] fourDigits = new String[]{"byr", "iyr", "eyr"};
 
     public int totalValid(String a) throws FileNotFoundException { //counts how many valid passports with loose rules
         List<Passport> passports = new ArrayList<>();
@@ -65,23 +65,20 @@ public class PassportValidator {
     }
 
     public boolean validatorStrict(Passport pass) { //checks if a passport is valid by strict rules
-
         for (int i = 0; i < baseStats.length - 1; i++) { //makes sure each info type is present
             if (!pass.isPresent(baseStats[i]))
                 return false;
         }
 
-        for (String four : fourStats) { //makes sure the three year values are 4 digits
-            if (pass.retValue(four).length() != 4)
+        for (String digits : fourDigits) { //makes sure the three year values are 4 digits
+            if (pass.retValue(digits).length() != 4)
                 return false;
         }
 
         if (Integer.parseInt(pass.retValue("byr")) < 1920 || Integer.parseInt(pass.retValue("byr")) > 2002) //birth year range
             return false;
-
         if (Integer.parseInt(pass.retValue("iyr")) < 2010 || Integer.parseInt(pass.retValue("iyr")) > 2020) //issue year range
             return false;
-
         if (Integer.parseInt(pass.retValue("eyr")) < 2020 || Integer.parseInt(pass.retValue("eyr")) > 2030) //expirary year range
             return false;
 
