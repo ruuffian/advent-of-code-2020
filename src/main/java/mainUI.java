@@ -144,13 +144,20 @@ public class mainUI {
                             e.printStackTrace();
                         }
                         assert questions != null;
-                        System.out.println(questions.uniqueQuestions());
+                        System.out.println(questions.anyoneYes());
+                    }
+
+                    if (choice.equals("2")) {
+                        Survey questions = null;
+                        try {
+                            questions = new Survey("Day6.txt");
+                        } catch (FileNotFoundException e) {
+                            e.printStackTrace();
+                        }
+                        assert questions != null;
+                        System.out.println(questions.everyoneYes());
                     }
                 }
-//                if (choice.equals("2")) {
-//                    BoardingPassCounter board = new BoardingPassCounter("Day5.txt");
-//                    System.out.println(board.missingSeatID());
-//                }
                 case "EXIT" -> System.exit(0);
             }
         }
