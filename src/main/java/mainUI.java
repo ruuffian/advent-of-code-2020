@@ -1,12 +1,9 @@
-import Day1.ExpenseReport;
-import Day1.ExpenseReportTwo;
-import Day2.correctValidPassword;
-import Day2.validPassword;
-import Day3.MultipleSlopes;
-import Day3.TobogganSlope;
-import Day4.PassportValidator;
-import Day5.BoardingPassCounter;
-import Day6.Survey;
+import Day1.*;
+import Day2.*;
+import Day3.*;
+import Day4.*;
+import Day5.*;
+import Day6.*;
 
 import java.io.FileNotFoundException;
 import java.util.Scanner;
