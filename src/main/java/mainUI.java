@@ -15,19 +15,19 @@ public class mainUI {
         System.out.println("What day would you like to run?");
         String choice = keyboard.next();
 
-        switch (choice.toUpperCase()) {
+        switch (choice) {
 
-            case "DAY1", "DAY 1", "DAY ONE", "1", "ONE":
+            case "1":
                 System.out.println("part 1 or part 2?");
                 choice = keyboard.next();
-                if (choice.toUpperCase().equals("ONE") || choice.toUpperCase().equals("1")) {
+                if (choice.equals("1")) {
                     ExpenseReport report = new ExpenseReport();
                     Integer[] result = report.sum2020("Day1.txt");
                     if (result[0] == 0)
                         System.out.println("An error has occured!");
                     else
                         System.out.println(result[0] * result[1]);
-                } else if (choice.toUpperCase().equals("TWO") || choice.toUpperCase().equals("2")) {
+                } else if (choice.equals("2")) {
                     ExpenseReportTwo report = new ExpenseReportTwo();
                     Integer[] result = report.sumThree("Day1.txt");
                     if (result[0] == 0)
@@ -39,72 +39,72 @@ public class mainUI {
                 }
                 break;
 
-            case "DAY2", "DAY 2", "DAY TWO", "2", "TWO":
+            case "2":
                 System.out.println("part 1 or part 2?");
-                String choice2 = keyboard.next();
-                if (choice2.toUpperCase().equals("1") || choice2.toUpperCase().equals("ONE")) {
+                choice = keyboard.next();
+                if (choice.equals("1")) {
                     validPassword password = new validPassword();
                     System.out.println("There are " + password.isValidPassword("Day2.txt") + " valid passwords.");
-                } else if (choice2.toUpperCase().equals("2") || choice2.toUpperCase().equals("TWO")) {
-                    correctValidPassword password = new correctValidPassword();
+                } else if (choice.equals("2")) {
+                    CorrectValidPassword password = new CorrectValidPassword();
                     System.out.println("There are " + password.numberValid("Day2.txt") + " valid passwords.");
                 } else {
                     System.out.println("Invalid entry!");
                 }
                 break;
 
-            case "DAY3", "DAY 3", "DAY THREE", "3", "THREE":
+            case "3":
                 System.out.println("part 1 or part 2?");
-                String choice3 = keyboard.next();
-                if (choice3.toUpperCase().equals("1") || choice3.toUpperCase().equals("ONE")) {
+                choice = keyboard.next();
+                if (choice.equals("1")) {
                     TobogganSlope slope = new TobogganSlope();
                     System.out.println(slope.trees("Day3.txt"));
                 }
-                if (choice3.toUpperCase().equals("2") || choice3.toUpperCase().equals("TWO")) {
+                if (choice.equals("2")) {
                     MultipleSlopes slope = new MultipleSlopes();
                     System.out.println(slope.multipleTrees("Day3.txt"));
                 }
                 break;
 
-            case "DAY4", "DAY 4", "DAY FOUR", "4", "FOUR":
+            case "4":
                 System.out.println("part 1 or part 2?");
-                String choice4 = keyboard.next();
-                if (choice4.toUpperCase().equals("1") || choice4.toUpperCase().equals("ONE")) {
+                choice = keyboard.next();
+                if (choice.equals("1")) {
                     PassportValidator valid = new PassportValidator();
                     System.out.println(valid.totalValid("Day4.txt"));
                 }
-                if (choice4.toUpperCase().equals("2") || choice4.toUpperCase().equals("TWO")) {
+                if (choice.equals("2")) {
                     PassportValidator pass = new PassportValidator();
                     System.out.println(pass.totalValidStrict("Day4.txt"));
                 }
                 break;
 
-            case "DAY5", "DAY 5", "DAY FIVE", "5", "FIVE":
+            case "5":
                 System.out.println("part 1 or part 2?");
-                String choice5 = keyboard.next();
-                if (choice5.toUpperCase().equals("1") || choice5.toUpperCase().equals("ONE")) {
+                choice = keyboard.next();
+                if (choice.equals("1")) {
                     BoardingPassCounter board = new BoardingPassCounter("Day5.txt");
                     System.out.println(board.maxSeatID());
                 }
-                if (choice5.toUpperCase().equals("2") || choice5.toUpperCase().equals("TWO")) {
+                if (choice.equals("2")) {
                     BoardingPassCounter board = new BoardingPassCounter("Day5.txt");
                     System.out.println(board.missingSeatID());
                 }
                 break;
 
-            case "DAY6", "DAY 6", "DAY SIX", "6", "SIX":
+            case "6":
                 System.out.println("part 1 or part 2?");
-                String choice6 = keyboard.next();
-                if (choice6.toUpperCase().equals("1") || choice6.toUpperCase().equals("ONE")) {
+                choice = keyboard.next();
+                if (choice.equals("1")) {
                     Survey questions = new Survey("Day6.txt");
                     System.out.println(questions.uniqueQuestions());
                 }
-//                if (choice5.toUpperCase().equals("2") || choice5.toUpperCase().equals("TWO")) {
+//                if (choice.equals("2")) {
 //                    BoardingPassCounter board = new BoardingPassCounter("Day5.txt");
 //                    System.out.println(board.missingSeatID());
 //                }
                 break;
-            case "EXIT", "STOP", "TERMINATE":
+            case "EXIT":
                 break;
         }
     }
