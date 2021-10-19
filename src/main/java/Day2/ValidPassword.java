@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Scanner;
 
-public class validPassword {
+public class ValidPassword {
     List<String> values = new ArrayList<>();
 
     public int isValidPassword(String a) throws FileNotFoundException {
